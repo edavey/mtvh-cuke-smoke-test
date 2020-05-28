@@ -21,3 +21,4 @@ Capybara.register_driver :apparition do |app|
 end
 Capybara.default_driver = :apparition
 Capybara.javascript_driver = :apparition
+Capybara.save_path = "./capybara-artefacts"
